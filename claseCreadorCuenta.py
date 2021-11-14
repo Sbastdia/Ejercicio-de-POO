@@ -45,7 +45,7 @@ if __name__ == '__main__':
     Cuenta3.cuenta.ingresardinero(575)
     Cuenta1.cuenta.retirardinero(78)
 
-    print("saldo de la cuenta 1: "+str(Cuenta1.cuenta.getsaldo()))
-    print("saldo de la cuenta 2: "+str(Cuenta2.cuenta.getsaldo()))
-    print("saldo de la cuenta 3: "+str(Cuenta3.cuenta.getsaldo()))
+    print("El saldo de la cuenta 1 es: "+str(Cuenta1.cuenta.getsaldo()))
+    print("El saldo de la cuenta 2 es: "+str(Cuenta2.cuenta.getsaldo()))
+    print("El saldo de la cuenta 3 es: "+str(Cuenta3.cuenta.getsaldo()))
 
