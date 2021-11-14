@@ -1,10 +1,10 @@
 class cuentaBancaria:
 
-    def __init__(self,id,titular,fecha,numerocuenta,saldo):
+    def __init__(self,id,titular,fecha,numeroCuenta,saldo):
         self.id=id
         self.titular=titular
         self.fecha=fecha
-        self.numerocuenta=numerocuenta
+        self.numeroCuenta=numeroCuenta
         self.saldo=saldo
 
 
@@ -17,8 +17,8 @@ class cuentaBancaria:
     def setFecha(self,fecha):
         self.fecha=fecha
 
-    def setnumerocuenta(self,numerocuenta):
-        self.numerocuenta=numerocuenta
+    def setnumeroCuenta(self,numeroCuenta):
+        self.numeroCuenta=numeroCuenta
 
     def setsaldo(self,saldo):
         self.saldo=saldo
@@ -32,8 +32,8 @@ class cuentaBancaria:
     def getFecha(self):
         return self.fecha
 
-    def getnumerocuenta(self):
-        return self.numerocuenta
+    def getnumeroCuenta(self):
+        return self.numeroCuenta
 
     def getsaldo(self):
         return self.saldo
