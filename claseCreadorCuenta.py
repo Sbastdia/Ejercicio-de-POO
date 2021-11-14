@@ -15,7 +15,7 @@ class CreadorCuenta():
             self.vencimiento=fecha2
         else:
             self.vencimiento=fecha1
-        self.numerocuenta=cuentaBancaria.crearnumero()
+        self.numerocuenta=cuentaBancaria.crearNumeroCuenta()
         self.saldo=10000
         self.negativo=random.randint(1,self.saldo/8)
         if(tipoCuenta=="CuentaBancaria"):
