@@ -11,43 +11,43 @@ class cuentaBancaria:
     def setid(self,id):
         self.id=id
 
-    def settitular(self,titular):
+    def setTitular(self,titular):
         self.titular=titular
 
     def setFecha(self,fecha):
         self.fecha=fecha
 
-    def setnumeroCuenta(self,numeroCuenta):
+    def setNumeroCuenta(self,numeroCuenta):
         self.numeroCuenta=numeroCuenta
 
-    def setsaldo(self,saldo):
+    def setSaldo(self,saldo):
         self.saldo=saldo
 
     def getid(self):
         return self.id
 
-    def gettitular(self):
+    def getTitular(self):
         return self.titular
 
     def getFecha(self):
         return self.fecha
 
-    def getnumeroCuenta(self):
+    def getNumeroCuenta(self):
         return self.numeroCuenta
 
-    def getsaldo(self):
+    def getSaldo(self):
         return self.saldo
 
-    def retirardinero(self,dinero):
+    def retirarDinero(self,dinero):
         if (self.saldo>=dinero):
             self.saldo=self.saldo-dinero
         else:
             print('Quieres retirar más dinero del que tienes')
 
-    def ingresardinero(self, dinero):
+    def ingresarDinero(self, dinero):
         self.saldo=self.saldo+dinero
 
-    def transferirdinero(self,dinero,cuentaATransferir):
+    def transferirDinero(self,dinero,cuentaATransferir):
         if (self.saldo>=dinero):
             self.saldo=self.saldo-dinero
             cuentaATransferir.saldo=cuentaATransferir.saldo+dinero
